@@ -1,3 +1,5 @@
 node_modules
 *~
 test-reports.xml
+upgrade_requests.log
+apks/
