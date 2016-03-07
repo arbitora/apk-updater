@@ -2,3 +2,4 @@ node_modules
 *~
 test-reports.xml
 upgrade_requests.log
+nohup.out
