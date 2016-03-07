@@ -6,6 +6,6 @@ app.use(express.bodyParser());
 
 apkUpdater.enable(app, '/', './apks');
 
-var server = app.listen(8090, '127.0.0.1', function () {
+var server = app.listen(8090, '0.0.0.0', function () {
     console.log('apk updater running');
 });
