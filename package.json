@@ -1,6 +1,6 @@
 {
   "name": "apk-updater",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Express module for apk auto-updater",
   "directories": {
     "test": "test"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NDMAC/apk-updater.git"
+    "url": "https://github.com/arbitora/apk-updater.git"
   },
   "keywords": [
     "node",
@@ -19,6 +19,7 @@
     "apk"
   ],
   "dependencies": {
+	"body-parser": "*",
     "underscore": "*",
     "node-uuid": "*",
     "winston": "*"
@@ -29,5 +30,5 @@
     "express": "3.x"
   },
   "author": "G.Bourel",
-  "license": "Apache"
+  "license": "Apache-2.0"
 }

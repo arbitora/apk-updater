@@ -1,5 +1,7 @@
 node_modules
 *~
+myAPK/*.apk
+.log
 test-reports.xml
 upgrade_requests.log
 nohup.out
